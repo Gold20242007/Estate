@@ -478,7 +478,7 @@ color: #FFFFFF;
     display: flex;
     gap: 10px;
 }
-.foorter_item{
+.foorter_item:not(:last-child){
  width: 220.8px;
 height: 179px;
 }
@@ -565,6 +565,7 @@ margin: 0;
            width: 100% !important;
        }
        .wrap2{
+        display: flex;
            width: 100% !important;
            justify-content: center;
        }
@@ -702,6 +703,7 @@ margin: 0;
      }
      .feed{
        padding: 20px !important;
+       margin: 0 auto;
        width: 360px !important;
      }
      .feed_list{
@@ -743,23 +745,26 @@ margin: 0;
      }
      .foorter_item{
        text-align: center;
-       height: 100%;
+       height: 100% !important;
      }
      .foorter{
        height: 100% ;
-       padding: 50px 0;
+       padding: 50px 0px;
        background-color:  #292C32;
        margin: 0;
+     }
+     .foorter_button{
+        right: 20px !important; 
      }
      .foorter_input{
         display: flex;
         justify-content: center;
- width: 320.28px;
+ width: 100%;
 height: 53px;
      }
      .foorter_text2{
         padding: 0;
-        margin: 0;
+        margin-bottom: 10px;
      }
      .foorter_box{
         flex-direction: column-reverse;
@@ -782,5 +787,10 @@ height: 53px;
      }
      .foorter_minbox{
         padding: 0 20px;
+     }
+     .foorter_minndiv{
+        width: 90%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
      }
    }
