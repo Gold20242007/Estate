@@ -754,7 +754,7 @@ margin: 0;
        margin: 0;
      }
      .foorter_button{
-        right: 20px !important; 
+        left: 335px !important; 
      }
      .foorter_input{
         display: flex;
@@ -765,6 +765,7 @@ height: 53px;
      .foorter_text2{
         padding: 0;
         margin-bottom: 10px;
+        max-width: 441px;
      }
      .foorter_box{
         flex-direction: column-reverse;
@@ -794,3 +795,8 @@ height: 53px;
         padding-right: 20px !important;
      }
    }
+   @media screen and (max-width: 360px){
+    .foorter_button {
+        left: 250px !important;
+    }
+}
